@@ -15,7 +15,9 @@ The following is a brief introduction to the very basics of git.
 
 ### What is git? Why use git?**
 
-git is a software which tracks the versions of files in some location called a repository. Typically your project lives in a directory (we will use this term rather than folder from now on); once you “install” git into that directory, we will now call it a git repository.
+git is a software which tracks the versions of files in some location called a repository.
+Typically your project lives in a directory (we will use this term rather than folder from now on);
+once you “install” git into that directory, we will now call it a git repository.
 
 Software developers use git because it simplifies the process of collaborating on projects greatly.
 
@@ -35,7 +37,8 @@ All command line programs follow the same format:
 program_name [options] [arguments]
 ```
 
-For example, one of the basic commands on linux is cd, or change directory. You pass a directory and it moves you and your terminal into that location.
+For example, one of the basic commands on linux is cd, or change directory.
+You pass a directory and it moves you and your terminal into that location.
 
 ```bash
 # changes directory to ~/home/code/projectA
@@ -63,7 +66,8 @@ cd ~/home/code/projectA
 mv file_A.cpp ~/home/code/projectB
 ```
 
-Similarly, all commands for git start with the keyword “git”, and are followed by different arguments which are often commands themselves which take arguments.
+Similarly, all commands for git start with the keyword “git”, and are followed by different arguments which
+are often commands themselves which take arguments.
 
 For example:
 ```bash
@@ -88,7 +92,11 @@ git init
 ```
 
 ### Adding Files and Saving Changes (add, commit)
-While we have a repository, we still need to let it know that there are files we want to track. We track our project’s files in snapshots called “commits”. Commits require a message (which should describe the changes), and a list of changes that are part of the commit. Adding files to be committed is called “staging” and is done with the add command. We then use the commit command and the -m flag to specify our message.
+While we have a repository, we still need to let it know that there are files we want to track.
+We track our project’s files in snapshots called “commits”. Commits require a message
+(which should describe the changes), and a list of changes that are part of the commit.
+Adding files to be committed is called “staging” and is done with the add command.
+We then use the commit command and the -m flag to specify our message.
 
 ```bash
 # stage all changes in current directory
@@ -147,10 +155,13 @@ git push https://github.com/profazhar001/csc211H origin/main
 
 But what if you want to say, fix a bug in someone else’s repository and update their version?
 
-Obviously, GitHub will not allow us to directly change anybody’s repository we want. Pushing to remotes is locked to people who don’t own the repo or have certain permissions.
+Obviously, GitHub will not allow us to directly change anybody’s repository we want. Pushing to remotes is locked to 
+people who don’t own the repo or have certain permissions.
 
 ### Forking
-Forking a remote makes a copy of the remote, under your name. Now we can push our changes to our own remote. There is no command specifically to fork a repo. The process is essentially first cloning a remote, and then deleting the link to the old remote, and finally making your own remote, but this is much simpler to just do online via Github.
+Forking a remote makes a copy of the remote, under your name. Now we can push our changes to our own remote. There is
+no command specifically to fork a repo. The process is essentially first cloning a remote, and then deleting the link
+to the old remote, and finally making your own remote, but this is much simpler to just do online via Github.
 
 Now after forking we can clone our own repository:
 ```bash
@@ -178,5 +189,5 @@ git fetch origin/main
 ```
 
 This is a very brief, broad overview on some basic git commands.
-For more details, I highly encourage you to use git-scm as a resource to check your
+For more details, I highly encourage you to use [git-scm](https://git-scm.com/) as a resource to check your
 understanding and learn more as you progress.
