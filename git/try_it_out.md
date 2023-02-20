@@ -16,4 +16,4 @@ Feel free to leave a little message along with your name if you want!
 #### Note: Do not make any changes to any other files in this repository.
 
 ### git pros:
-* peter v :)
+* peter v was here
