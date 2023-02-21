@@ -30,6 +30,8 @@ In from_replit you will find code from repl.it exercises.
 In the git directory you will find "try it out", which is a simple exercise to get you familiar with the git workflow.
 See if you can follow the steps to make a pull request to this repository!
 
+There is also a git_intro.md file which contains a brief introduction to git.
+
 ### testing
 Testing is the directory where tests are stored.
 You can peek at the tests if you want to see how they work, but you should not need to modify them.
