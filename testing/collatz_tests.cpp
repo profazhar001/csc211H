@@ -2,7 +2,7 @@
 // Created by Peter Vaiciulis on 2/20/23.
 //
 
-#include "../git/code/exercises/easy/collatz_conjecture/solution.cpp"
+#include "../code/exercises/easy/collatz_conjecture/collatz.cpp"
 #include <catch2/catch_test_macros.hpp>
 
 TEST_CASE("Verify Test Configuration", "verification") {

@@ -1,5 +1,5 @@
 # Try it out!
-Let's try to put together what we've learned to do a really basic workflow.
+Let's try to put together what we've learned to do a really basic and common workflow.
 
 ### Your Goal:
 Add your name to this under *"git pros"* !
@@ -16,4 +16,4 @@ Feel free to leave a little message along with your name if you want!
 #### Note: Do not make any changes to any other files in this repository.
 
 ### git pros:
-* peter v :)
+* peter v was here

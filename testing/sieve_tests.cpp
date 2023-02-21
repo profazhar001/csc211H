@@ -2,7 +2,7 @@
 // Created by Peter Vaiciulis on 2/20/23.
 //
 
-#include "../git/code/exercises/medium/sieve/sieve_of_eratosthenes.cpp"
+#include "../code/exercises/medium/sieve/sieve_of_eratosthenes.cpp"
 #include <catch2/catch_test_macros.hpp>
 
 
